@@ -1,3 +1,4 @@
+/*
 import './App.css';
 import SimpsonCharacter from "./Characters/Simpsons/Simpsons";
 
@@ -29,3 +30,71 @@ function App(props) {
 }
 
 export default App;
+*/
+/*
+
+import './App.css';
+import RickAndMortyCharacter from "./Characters/RickAndMorty/RickAndMorty";
+function App(props) {
+    return (
+        <div>
+            <RickAndMortyCharacter
+                id = {'1'}
+                name = {'Rick Sanchez'}
+                status = {'Alive'}
+                species = {'Human'}
+                gender = {'Male'}
+                image = {'https://rickandmortyapi.com/api/character/avatar/1.jpeg'}
+            />
+            <br/>
+            <RickAndMortyCharacter
+                id = {'2'}
+                name = {'Morty Smith'}
+                status = {'Alive'}
+                species = {'Human'}
+                gender = {'Male'}
+                image = {'https://rickandmortyapi.com/api/character/avatar/2.jpeg'}
+            />
+            <br/>
+            <RickAndMortyCharacter
+                id = {'3'}
+                name = {'Summer Smith'}
+                status = {'Alive'}
+                species = {'Human'}
+                gender = {'Female'}
+                image = {'https://rickandmortyapi.com/api/character/avatar/3.jpeg'}
+            />
+            <br/>
+            <RickAndMortyCharacter
+                id = {'4'}
+                name = {'Beth Smith'}
+                status = {'Alive'}
+                species = {'Human'}
+                gender = {'Female'}
+                image = {'https://rickandmortyapi.com/api/character/avatar/4.jpeg'}
+            />
+            <br/>
+            <RickAndMortyCharacter
+                id = {'5'}
+                name = {'Jerry Smith'}
+                status = {'Alive'}
+                species = {'Human'}
+                gender = {'Male'}
+                image = {'https://rickandmortyapi.com/api/character/avatar/5.jpeg'}
+            />
+            <br/>
+            <RickAndMortyCharacter
+                id = {'6'}
+                name = {'Abadango Cluster Princess'}
+                status = {'Alive'}
+                species = {'Alien'}
+                gender = {'Female'}
+                image = {'https://rickandmortyapi.com/api/character/avatar/6.jpeg'}
+            />
+
+        </div>
+    );
+}
+
+export default App;
+*/
