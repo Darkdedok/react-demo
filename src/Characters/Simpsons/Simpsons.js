@@ -1,4 +1,4 @@
-function Character(props){
+function SimpsonCharacter(props){
     let {name, biography, picture} = props;
     return(
         <div>
@@ -8,4 +8,4 @@ function Character(props){
         </div>
     )
 }
-export default Character;
+export default SimpsonCharacter;
