@@ -1,9 +1,9 @@
-import './App.css';
-import {Posts} from "./Components";
-function App(props) {
-    return (
+import {Users} from './Components';
+
+function App(){
+    return(
         <div>
-<Posts/>
+            <Users/>
         </div>
     );
 }
