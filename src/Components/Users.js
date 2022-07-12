@@ -9,8 +9,15 @@ const getUsers = () => {
     return axiosInstance.get('/users')
 }
 
+const getUser = (id) => {
+    return axiosInstance.get('/users/' + id);
+}
+const getPosts = () => {
+    return axiosInstance.get('/posts/');
+}
+
 function Users() {
     let [users, setUsers] = useState([]);
 }
 
-export {Users, getUsers}
+export {Users, getUsers, getUser, getPosts}
